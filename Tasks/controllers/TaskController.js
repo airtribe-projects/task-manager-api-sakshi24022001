@@ -19,7 +19,7 @@ const createTask = async (req, res) => {
     res.status(201).json(newTask);
 };
 
-// GET /tasks
+// GET /All Task
 const getAllTasks = async (req, res) => {
     res.status(200).json(tasks);
 };
